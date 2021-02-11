@@ -1,0 +1,26 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+table {
+  width: 100%;
+  margin-bottom: 0.5em;
+  table-layout: fixed;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 300px;
+  height: 50px;
+  margin-left: 2rem;
+  text-align: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
